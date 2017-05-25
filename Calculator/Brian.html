@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+
+<form name="Calc">
+<table>
+  <tr>
+    <td colspan="3">
+      <input type="text" name="Input">
+    </td>
+  </tr>
+  <tr>
+    <td><input type="button" value="1" onclick="Calc.Input.value += '1'"></td>
+    <td><input type="button" value="2" onclick="Calc.Input.value += '2'"></td>
+    <td><input type="button" value="-" onclick="Calc.Input.value += '-'"></td>
+  </tr>
+    <tr>
+    <td><input type="button" value="3" onclick="Calc.Input.value += '3'"></td>
+    <td><input type="button" value="4" onclick="Calc.Input.value += '4'"></td>
+    <td><input type="button" value="+" onclick="Calc.Input.value += '+'"></td>
+  </tr>
+   <tr>
+    <td colspan="3">
+      <input style="width: 100%;" type="button" name="equal" value="=" onclick="Calc.Input.value = eval(Calc.Input.value)">
+    </td>
+  </tr>
+</table>
+</form>
+
+</body>
+</html>

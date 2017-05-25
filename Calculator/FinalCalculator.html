@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="calStyle.css">
+</head>
+<body>
+	<div class="boxshape">
+	<div class="screenbox">
+	
+	<form name="Calc">
+		<table>
+		  <tr>
+		    <td colspan="4" ><input style="text-align: right;" type="text" name="Input"></td>
+		  </tr>
+		  
+		  <tr>
+		    <td colspan="2"><input style="width: 100%;" type="button" value="Clear" onclick="Calc.Input.value =''"></td>
+		    <td colspan="2"><input style="width: 100%;" type="button" name="equal" value="=" onclick="Calc.Input.value = eval(Calc.Input.value)"></td>
+		  </tr>
+		  </table>
+		  </form>
+		  </div>
+
+	<div class="numberbox">
+
+		  <table>
+		  <tr>
+		    <td><input style="width: 100%;" type="button" value="1" onclick="Calc.Input.value += '1'"></td>
+		    <td><input style="width: 100%;" type="button" value="2" onclick="Calc.Input.value += '2'"></td>
+		    <td><input style="width: 100%;" type="button" value="3" onclick="Calc.Input.value += '3'"></td>
+		    <td><input style="width: 100%;" type="button" value="+" onclick="Calc.Input.value += '+'"></td>
+		  </tr>
+		  <tr>
+		    <td><input style="width: 100%;" type="button" value="4" onclick="Calc.Input.value += '4'"></td>
+		    <td><input style="width: 100%;" type="button" value="5" onclick="Calc.Input.value += '5'"></td>
+		    <td><input style="width: 100%;" type="button" value="6" onclick="Calc.Input.value += '6'"></td>
+		    <td><input style="width: 100%;" type="button" value="-" onclick="Calc.Input.value += '-'"></td>
+		  </tr>
+
+		  <tr>
+		    <td><input style="width: 100%;" type="button" value="7" onclick="Calc.Input.value += '7'"></td>
+		    <td><input style="width: 100%;" type="button" value="8" onclick="Calc.Input.value += '8'"></td>
+		    <td><input style="width: 100%;" type="button" value="9" onclick="Calc.Input.value += '9'"></td>
+		    <td><input style="width: 100%;" type="button" value="*" onclick="Calc.Input.value += '*'"></td>
+		  </tr>
+
+		  <tr>  
+		    <td colspan="2"><input style="width: 100%;" type="button" value="0" onclick="Calc.Input.value += '0'"></td>
+		    <td><input style="width: 100%;" type="button" value="." onclick="Calc.Input.value += '.'"></td>
+		    <td><input style="width: 100%;" type="button" value="/" onclick="Calc.Input.value += '/'"></td>
+		  </tr>
+		</table>
+	
+	</div>
+	</div>
+
+
+
+</body>
+</html>

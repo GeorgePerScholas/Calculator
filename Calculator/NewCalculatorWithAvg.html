@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>New Calculator</title>
+	<link rel="stylesheet" type="text/css" href="calStyle.css">
+</head>
+<body>
+
+<div class="boxshape">
+	<div class="screenbox">
+		<form name="Calc">
+		<table>
+		<tr>
+		<td colspan="4"><input id="numbers" type="text" name="Input"></td>
+		</tr>
+
+
+		<tr>  
+		<td colspan="1"><input type="button" value="Clear" onclick="Calc.Input.value =''"></td>
+		<td colspan="1"><input type="button" name="equal" value="=" onclick="Calc.Input.value = eval(Calc.Input.value)"></td>
+		</tr>
+		</table>
+		</form>
+
+	</div>
+
+
+	<div class="numberbox">
+		<form name="Calc">
+		<table>
+			<tr>
+			<td><input type="button" value="1" onclick="Calc.Input.value +='1'"></td>
+			<td><input type="button" value="2" onclick="Calc.Input.value +='2'"></td>
+			<td><input type="button" value="3" onclick="Calc.Input.value +='3'"></td>
+			<td><input type="button" value="+" onclick="Calc.Input.value +='+'"></td>
+			</tr>
+
+			<tr>
+			<td><input type="button" value="4" onclick="Calc.Input.value +='4'"></td>
+			<td><input type="button" value="5" onclick="Calc.Input.value +='5'"></td>
+			<td><input type="button" value="6" onclick="Calc.Input.value +='6'"></td>
+			<td><input type="button" value="-" onclick="Calc.Input.value +='-'"></td>
+			</tr>
+
+			<tr>
+			<td><input type="button" value="7" onclick="Calc.Input.value +='7'"></td>
+			<td><input type="button" value="8" onclick="Calc.Input.value +='8'"></td>
+			<td><input type="button" value="9" onclick="Calc.Input.value +='9'"></td>
+			<td><input type="button" value="*" onclick="Calc.Input.value +='*'"></td>
+			</tr>
+
+			<tr>
+			<td><input type="button" value="0" onclick="Calc.Input.value +='0'"></td>
+			<td><input type="button" value="." onclick="Calc.Input.value +='.'"></td>
+			<!-- <td><input type="button" value="%" onclick="Calc.Input.value +='%'"></td> -->
+			<td><input type="button" value="/" onclick="Calc.Input.value +='/'"></td>
+			</tr>
+
+			 <!-- <td colspan="3"> -->
+		      <!-- <input style="width: 100%;" type="button" name="equal" value="=" onclick="Calc.Input.value = eval(Calc.Input.value)"> -->
+		    <!-- </td> -->
+
+
+
+		</table>
+		</form>
+
+	</div>
+
+
+	
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<form name="Calc">
+<table>
+	
+	<tr>
+	<td colspan="1"><input id="numbers" type="text" name="Input"></td>
+	</tr>
+
+
+
+	<tr> 
+	<td><input type="button" colspan="2" value="Clear" onclick="Calc.Input.value =''"></td>
+	<td><input type="button" colspan="2" name="equal" value="=" onclick="Calc.Input.value = eval(Calc.Input.value)"></td>
+	
+	</tr>
+
+	<tr>
+	<td><input type="button" value="1" onclick="Calc.Input.value +='1'"></td>
+	<td><input type="button" value="2" onclick="Calc.Input.value +='2'"></td>
+	<td><input type="button" value="3" onclick="Calc.Input.value +='3'"></td>
+	<td><input type="button" value="+" onclick="Calc.Input.value +='+'"></td>
+	</tr>
+
+	<tr>
+	<td><input type="button" value="4" onclick="Calc.Input.value +='4'"></td>
+	<td><input type="button" value="5" onclick="Calc.Input.value +='5'"></td>
+	<td><input type="button" value="6" onclick="Calc.Input.value +='6'"></td>
+	<td><input type="button" value="-" onclick="Calc.Input.value +='-'"></td>
+	</tr>
+
+	<tr>
+	<td><input type="button" value="7" onclick="Calc.Input.value +='7'"></td>
+	<td><input type="button" value="8" onclick="Calc.Input.value +='8'"></td>
+	<td><input type="button" value="9" onclick="Calc.Input.value +='9'"></td>
+	<td><input type="button" value="*" onclick="Calc.Input.value +='*'"></td>
+	</tr>
+
+	<tr>
+	<td><input type="button" value="0" onclick="Calc.Input.value +='0'"></td>
+	<td><input type="button" value="." onclick="Calc.Input.value +='.'"></td>
+	<!-- <td><input type="button" value="%" onclick="Calc.Input.value +='%'"></td> -->
+	<td><input type="button" value="/" onclick="Calc.Input.value +='/'"></td>
+	</tr>
+
+	 <!-- <td colspan="3"> -->
+      <!-- <input style="width: 100%;" type="button" name="equal" value="=" onclick="Calc.Input.value = eval(Calc.Input.value)"> -->
+    <!-- </td> -->
+
+
+
+</table>
+</form>
+
+</body>
+</html>
